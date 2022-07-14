@@ -29,10 +29,6 @@ All models were built by using Cornac library. The evaluation methods used inclu
 # Parameter Tuning
 Depending on the model in usage, the hyper parameters that were optimized include the followings:
 
-# Credits: 
-
-Cornac: A comparative framework for multimodal recommender systems 
-
 •	Number of factors (k)
 •	Maximum Iteration (max_iter)
 •	Learning Rate (learning_rate)
@@ -43,5 +39,9 @@ Cornac: A comparative framework for multimodal recommender systems
 
 # Model Evaluation
 F1@50, Training Time, AUC, NDCG@50, Precision@50 and Recall@50 
+
+# Credits
+
+Cornac: A comparative framework for multimodal recommender systems (https://cornac.preferred.ai/)
 
 
