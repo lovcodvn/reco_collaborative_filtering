@@ -6,6 +6,7 @@
 * [Methodology](#methodology)
 * [Parameter Tuning](#parameter-tuning)
 * [Model Evaluation](#model-evaluation)
+* [The best result](#the-best-result)
 * [Credits](#credits)
 
 # Project Objective
@@ -47,6 +48,16 @@ Depending on the model in usage, the hyper parameters that were optimized includ
 
 # Model Evaluation
 F1@50, Training Time, AUC, NDCG@50, Precision@50 and Recall@50 
+
+# The best result
+After a lot of experiments, the following model was chosen as the best model, which achieved the highest F1@50 score. 
+
+Model Name: BPR
+Hyper parameters:
+•	k = 400
+•	max_iter = 10,000
+•	learning_rate = 0.1
+•	lambda_reg = 0.05
 
 # Credits
 
