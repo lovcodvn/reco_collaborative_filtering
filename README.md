@@ -1,5 +1,14 @@
 # Recommender System: Collaborative filtering
- 
+
+# Table of contents
+* [Recommender System: Collaborative filtering](#recommender-system-collaborative-filtering)
+* [Project Objective](#project-objective)
+* [Datasets](#datasets)
+* [Methodology](#methodology)
+* [Parameter Tuning](#parameter-tuning)
+* [Model Evaluation](#model-evaluation)
+* [Credits](#credits)
+
 # Project Objective
 The objective of the project is to build a recommendation system that recommends items to users. The project is run in the style of a data science contest, where there is an open leaderboard for students. To achieve high positions on the leaderboard, participants are required to select appropriate models and tune the necessary hyper-parameters for the best performance. 
 
