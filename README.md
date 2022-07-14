@@ -1,7 +1,6 @@
 # Recommender System: Collaborative filtering
 
 # Table of contents
-* [Recommender System: Collaborative filtering](#recommender-system-collaborative-filtering)
 * [Project Objective](#project-objective)
 * [Datasets](#datasets)
 * [Methodology](#methodology)
