@@ -19,15 +19,20 @@ Data preparation and analysis were performed to detect null values, duplicates a
 
 3.	Model Selection 
 The 4 following models were explored during experiments:
-   1.	Matrix Factorization (MF)
-   2.	Non-negative Matrix Factorization (NMF)
-   3.	Weighted Matrix Factorization (WMF)
-   4.	Bayesian Personalized Ranking (BPR)
+   -	Matrix Factorization (MF)
+   -	Non-negative Matrix Factorization (NMF)
+   -	Weighted Matrix Factorization (WMF)
+   -	Bayesian Personalized Ranking (BPR)
 
 All models were built by using Cornac library. The evaluation methods used include Ratio Split and Base method. When Ratio Split is used, only Training dataset is provided for training and testing, with the ratio of 80:20, respectively. When Base method is used, the Training dataset is utilized to train models and the Probing dataset is used for model testing.
 
 # Parameter Tuning
 Depending on the model in usage, the hyper parameters that were optimized include the followings:
+
+# Credits: 
+
+Cornac: A comparative framework for multimodal recommender systems 
+
 •	Number of factors (k)
 •	Maximum Iteration (max_iter)
 •	Learning Rate (learning_rate)
